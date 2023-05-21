@@ -47,7 +47,7 @@ def store_objects(lines, image_path):
         if parts[0] == "0":
             obj_class = "fall"
         elif parts[0] == "1":
-            obj_class = "stand"
+            obj_class = "walk"
         elif parts[0] == "2":
             obj_class = "sit"
         else:
